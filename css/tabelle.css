@@ -1,7 +1,7 @@
 table{
 	
 	border-collapse: collapse;
-	
+	margin-top: 50px;
 	
 }
 
@@ -9,7 +9,8 @@ th{
 	font-family: 'Sanchez', serif;
 	font-weight: 400;
 	text-align: center;
-	background-color: lightgrey;
+	background-color: rgba(230,230,230,0.5);
+	padding: 7px;
 	
 }
 
@@ -18,13 +19,14 @@ th{
 .rahmen{
 	width: 80%;
 	margin: auto;
-	background: whitesmoke;
+	//background: whitesmoke;
 	
 }
 
 td:nth-child(2){
 	text-align: center;
 	color: green;
+	font-family: Courier, monospace;
 }
 
 tbody {
@@ -35,13 +37,39 @@ tbody {
 td {
 	border-bottom: 1px dotted grey;
 	padding: 13px;
-	margin-top: 30px;
+	color: white;
+	
 	}
-{}
-{}
-{}
-{}
-{}
+body{
+	background-image: url('../pic/aDSC_0420.JPG');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	
+}
+
+#valx {
+	position: fixed;
+	left: 10px;
+	top: 50px;
+}
+
+#valc{
+	position: fixed;
+	left:10px;
+	top: 100px;
+}
+
+caption{
+	padding: 7px;
+	color: #66ff66;
+}
+
+
+td:nth-child(4), td:nth-child(5){
+	text-align: center;
+}
+
 {}
 {}
 {}
