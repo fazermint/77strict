@@ -1,3 +1,24 @@
+@font-face {
+	font-family: "'Montserrat Subrayada'";
+	font-style: bold;
+	font-weight: 700;
+	src: local('Montserrat Subrayada'), url(http://fonts.googleapis.com/css?family=Montserrat+Subrayada:700);
+}
+
+@font-face {
+	font-family : "'Roboto Condensed'";
+	font-style : normal;
+	font-weight : 300;
+	src : local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(http://themes.googleusercontent.com/static/fonts/robotocondensed/v8/b9QBgL0iMZfDSpmcXcE8nL3QFSXBldIn45k5A7iXhnc.ttf) format('truetype');
+}
+
+@font-face {
+	font-family : "'Sanchez'";
+	font-style : normal;
+	font-weight : 400;
+	src : local('Sanchez'), local('Sanchez-Regular'), url(http://themes.googleusercontent.com/static/fonts/sanchez/v1/Eh9ZVPLDFF2xhCIl_We4NA.ttf) format('truetype');
+}
+
 table{
 	
 	border-collapse: collapse;
@@ -6,11 +27,11 @@ table{
 }
 
 th{
-	font-family: 'Sanchez', serif;
-	font-weight: 400;
+	font-family: 'Cinzel Decorative', cursive;
+	
 	text-align: center;
-	background-color: rgba(230,230,230,0.5);
-	padding: 7px;
+	background-color: rgba(230,230,230,0.7);
+	padding: 15px;
 	
 }
 
@@ -26,11 +47,11 @@ th{
 td:nth-child(2){
 	text-align: center;
 	color: green;
-	font-family: Courier, monospace;
+	font-family: 'Courier', monospace;
 }
 
 tbody {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
 }
 
@@ -51,18 +72,21 @@ body{
 #valx {
 	position: fixed;
 	left: 10px;
-	top: 50px;
+	top: 89px;
 }
 
 #valc{
 	position: fixed;
 	left:10px;
-	top: 100px;
+	top: 125px;
 }
 
 caption{
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 1.7em;
 	padding: 7px;
-	color: #66ff66;
+	color: #ffcc33;
+	
 }
 
 
