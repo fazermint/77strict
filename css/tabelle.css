@@ -1,17 +1,42 @@
-@font-face {
-	font-family: "'Montserrat Subrayada'";
-	font-style: bold;
-	font-weight: 700;
-	src: local('Montserrat Subrayada'), url(http://fonts.googleapis.com/css?family=Montserrat+Subrayada:700);
-}
 
 @font-face {
-	
+font-family : "'Cinzel Decorative'";
+font-style : normal;
+font-weight : 700;
+src : local('Cinzel Decorative Bold'), local('CinzelDecorative-Bold'), url(http://themes.googleusercontent.com/static/fonts/cinzeldecorative/v1/pXhIVnhFtL_B9Vb1wq2F9wIh9oxuYcmvOvyh_107lQs.ttf) format('truetype');
+}
+@font-face {
+{
+font-family : "'Montserrat Subrayada'";
+font-style : normal;
+font-weight : 400;
+src : local('MontserratSubrayada-Regular'), url(http://themes.googleusercontent.com/static/fonts/montserratsubrayada/v1/nzoCWCz0e9c7Mr2Gl8bbgmKug4NwxLoXRUZJcef-dI0.ttf) format('truetype');
+}
+}
+@font-face {
+{
+font-family : "'Titillium Web'";
+font-style : normal;
+font-weight : 600;
+src : local('Titillium WebSemiBold'), local('TitilliumWeb-SemiBold'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/anMUvcNT0H1YN4FII8wpr4e2tK5W43RXgBRKkM4A5Qg.ttf) format('truetype');
+}
+}
+@font-face {
+{
+font-family : "'Titillium Web'";
+font-style : normal;
+font-weight : 700;
+src : local('Titillium WebBold'), local('TitilliumWeb-Bold'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/anMUvcNT0H1YN4FII8wprzsSLeNQG2cy_mKit6iEdYs.ttf) format('truetype');
+}
+}
+@font-face {
+{
+font-family : '"'Montserrat Subrayada'"';
+font-weight : 700;
+src : local('Montserrat Subrayada'), url(http://fonts.googleapis.com/css?family=Montserrat+Subrayada:700);
+}
 }
 
-@font-face {
-	
-}
 
 table{
 	
