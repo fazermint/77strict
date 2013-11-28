@@ -6,17 +6,11 @@
 }
 
 @font-face {
-	font-family : "'Roboto Condensed'";
-	font-style : normal;
-	font-weight : 300;
-	src : local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(http://themes.googleusercontent.com/static/fonts/robotocondensed/v8/b9QBgL0iMZfDSpmcXcE8nL3QFSXBldIn45k5A7iXhnc.ttf) format('truetype');
+	
 }
 
 @font-face {
-	font-family : "'Sanchez'";
-	font-style : normal;
-	font-weight : 400;
-	src : local('Sanchez'), local('Sanchez-Regular'), url(http://themes.googleusercontent.com/static/fonts/sanchez/v1/Eh9ZVPLDFF2xhCIl_We4NA.ttf) format('truetype');
+	
 }
 
 table{
@@ -48,6 +42,7 @@ td:nth-child(2){
 	text-align: center;
 	color: green;
 	font-family: 'Courier', monospace;
+	font-weight: bold;
 }
 
 tbody {
@@ -72,7 +67,7 @@ body{
 #valx {
 	position: fixed;
 	left: 10px;
-	top: 89px;
+	top: 83px;
 }
 
 #valc{
@@ -94,8 +89,4 @@ td:nth-child(4), td:nth-child(5){
 	text-align: center;
 }
 
-{}
-{}
-{}
-{}	
 
